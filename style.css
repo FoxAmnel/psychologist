@@ -60,7 +60,7 @@ font-family: 'Comfortaa', cursive;
   }
 
 
-  button {
+  .button {
     border-radius: 14px;
     border-color: #004D8A;
     margin: auto;
@@ -71,7 +71,32 @@ font-family: 'Comfortaa', cursive;
     font-size: 20px;
     background-color: aliceblue;
   }
-  button:hover {
+  .button:hover {
+    border-radius: 14px;
+    border-color: aliceblue;
+    margin: auto;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 20px;
+    background-color:#004D8A;
+    transition: all 400ms ease-in-out
+  }
+
+  .form_button {
+    border-radius: 14px;
+    border-color: #004D8A;
+    margin: auto;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 20px;
+    background-color: aliceblue;
+  }
+  .form_button:hover {
     border-radius: 14px;
     border-color: aliceblue;
     margin: auto;
