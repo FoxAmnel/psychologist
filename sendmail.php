@@ -11,7 +11,7 @@ $mail->setLanguage('uk', 'phpmailer/language/');
 $mail->IsHTML(true);
 
 //від кого лист
-$mail->setForm('', 'Клієнт');
+$mail->setForm('fox.amnel.@gmail.com', 'Клієнт');
 //Кому відправити
 $mail->addAddress('fox.amnel.@gmail.com');
 //Тема листа
