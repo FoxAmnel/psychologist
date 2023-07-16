@@ -38,7 +38,7 @@ if (!$mail->send()) {
     $message = 'Помилка';
 } else {
     $message = 'Данні відправлені!';
-}
+} return 0;
 
 $response = ['message' => $message];
 
