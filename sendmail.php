@@ -34,7 +34,7 @@ if(trim(!empty($_POST['message']))) {
 $mail->Body = $body;
 
 //Відправляємо
-if (!&mail->send()) {
+if (!$mail->send()) {
     $message = 'Помилка';
 } else {
     $message = 'Данні відправлені!';
